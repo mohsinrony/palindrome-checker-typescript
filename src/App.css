@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("https://source.unsplash.com/1600x900/?nature") center/cover fixed;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 217, 1);
+  opacity: 0.7;
+  color: white;
+  border: 1px solid #ccc;
+  padding: 4em;
+  width: 90%;
+  height: auto;
+  max-width: 400px;
+  max-height: 100vh;
+  margin: 100px auto;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 7px 12px rgba(42, 42, 40, 0.774);
+}
+
+.container h2 {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+  padding: 5px
+}
+.container p {
+  font-size: 18px;
+  color: #000000;
+}
+.card input {
+  background-color: rgb(254, 254, 254);
+  width: 60%;
+  font-size: 16px;
+  border: 1px solid #979593;
+  padding: 10px;
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+.result {
+  background-color: white;
+  padding: 10px;
+  border-radius: 18px;
+  color: #000000;
+}
+.container footer {
+  position: absolute;
+  color: rgb(6, 6, 6);
+  bottom: 5px;
+}
