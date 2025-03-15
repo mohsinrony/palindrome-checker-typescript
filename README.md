@@ -24,8 +24,31 @@ Make sure you have the following installed:
 ### Steps to Set Up
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/palindrome-checker.git
    cd palindrome-checker
    ```
-# palindrome-checker-typescript
+
+Install dependencies:
+npm install
+
+Start the development server:
+npm start
+
+This will start the app on http://localhost:3000.
+Project Structure
+src/: Contains all the source code files.
+App.tsx: The main React component that renders the PalindromeChecker component.
+PalindromeChecker.tsx: The component that handles the palindrome logic and renders the UI.
+index.tsx: The entry point of the React app.
+index.css: Global styles for the app.
+
+TypeScript Configuration
+This project uses TypeScript for static typing and code quality. The TypeScript configuration is in tsconfig.json, and you should make sure that the jsx flag is enabled in your tsconfig.json for JSX to work properly.
+
+License
+This project is licensed under the MIT License.
+
+Author
+Made by Mohsin Rony.
