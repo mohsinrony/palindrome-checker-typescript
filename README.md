@@ -28,3 +28,4 @@ Make sure you have the following installed:
    git clone https://github.com/your-username/palindrome-checker.git
    cd palindrome-checker
    ```
+# palindrome-checker-typescript
